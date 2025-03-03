@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ht7811110/HT/refs/he
 
        local Window = MakeWindow({
          Hub = {
-         Title = "HT",
-         Animation = "HT: TEST"
+         Title = "CRE HT",
+         Animation = "tổng: hợp script"
          },
         Key = {
         KeySystem = false,
@@ -31,6 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ht7811110/HT/refs/he
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script no key "})
+     local Tab1o = MakeTab({Name = "SCRIPT CỦA HT"})
      
 ------- BUTTON
     
@@ -59,3 +60,10 @@ getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performanc
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))(Settings)
   end
   })
+  AddButton(Tab2o, {
+     Name = "CHỜ UPDATE THÊM",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
