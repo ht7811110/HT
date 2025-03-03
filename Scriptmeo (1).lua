@@ -67,3 +67,4 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ht7811110/HT/refs/heads/main/config.lua"))(settings)
