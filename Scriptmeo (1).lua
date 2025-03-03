@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ht7811110/HT/refs/he
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script no key "})
-     local Tab1o = MakeTab({Name = "SCRIPT CỦA HT"})
+     local Tab2o = MakeTab({Name = "SCRIPT CỦA HT"})
      
 ------- BUTTON
     
